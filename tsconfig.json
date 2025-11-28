@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "target": "ES2023",
     "strict": true,
@@ -13,17 +13,6 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "paths": {
-      "@/*": [
-        "*"
-      ],
-      "@prisma/generated/*": [
-        "prisma/generated/*"
-      ],
-      "@prisma/generated": [
-        "prisma/generated"
-      ]
-    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
